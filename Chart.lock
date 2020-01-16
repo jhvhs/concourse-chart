@@ -1,0 +1,6 @@
+dependencies:
+- name: postgresql
+  repository: https://dev.registry.pivotal.io/chartrepo/concourse-helm
+  version: 9.0.0
+digest: sha256:6f9b3289a50eb33d2fd0194a93a2603054c681e0a1b1c12e0e5b2994dd03d7f0
+generated: "2020-01-16T10:33:08.254024Z"
