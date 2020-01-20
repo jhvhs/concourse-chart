@@ -110,7 +110,7 @@ registry address, repository, tag and digest when available.
 */}}
 {{- define "concourse.imageReference" -}}
 {{- $registry := coalesce .image.registry .values.global.imageRegistry "docker.io" -}}
-{{- $namespace := coalesce .image.namespace .values.imageNamespace .values.global.imageNamespace "library" -}}
+{{- $namespace := coalesce .image.namespace .values.imageNamespace .values.global.imageNamespace "concourse" -}}
 {{- printf "%s/%s/%s:%s" $registry $namespace .image.name .image.tag -}}
 {{- if .image.digest -}}
 {{- printf "@%s" .image.digest -}}
