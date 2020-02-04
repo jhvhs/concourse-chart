@@ -3,7 +3,7 @@ entries:
   concourse:
   - apiVersion: v2
     appVersion: 5.8.0
-    created: "2020-01-24T10:46:01.154932Z"
+    created: "2020-02-04T13:47:07.991274Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -35,7 +35,7 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: 11.6.0
-    created: "2020-01-24T10:46:01.157572Z"
+    created: "2020-02-04T13:47:07.99482Z"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: 29b835090c55b82157777f7baf18d034aa9c2059f0e55e74f75ae195fb80cf94
@@ -59,4 +59,30 @@ entries:
     urls:
     - https://jhvhs.github.io/concourse-chart/postgresql-9.0.0.tgz
     version: 9.0.0
-generated: "2020-01-24T10:46:01.147456Z"
+  - apiVersion: v1
+    appVersion: 11.6.0
+    created: "2020-02-04T13:47:07.99344Z"
+    description: Chart for PostgreSQL, an object-relational database management system
+      (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: 0a218d3265d07f34dc6ef3ad7fcd23c6bd633c8ef4a28fae8138873b81db0cdf
+    home: https://www.postgresql.org/
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    urls:
+    - https://jhvhs.github.io/concourse-chart/postgresql-8.2.3.tgz
+    version: 8.2.3
+generated: "2020-02-04T13:47:07.985176Z"
