@@ -3,7 +3,7 @@ entries:
   concourse:
   - apiVersion: v2
     appVersion: 5.8.0
-    created: "2020-02-11T13:27:14.26662Z"
+    created: "2020-02-12T10:52:21.156913Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -35,7 +35,7 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: 11.6.0
-    created: "2020-02-11T13:27:14.274443Z"
+    created: "2020-02-12T10:52:21.165057Z"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: 29b835090c55b82157777f7baf18d034aa9c2059f0e55e74f75ae195fb80cf94
@@ -61,36 +61,10 @@ entries:
     version: 9.0.0
   - apiVersion: v1
     appVersion: 11.6.0
-    created: "2020-02-11T13:27:14.278966Z"
+    created: "2020-02-12T10:52:21.16328Z"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
-    digest: 29b835090c55b82157777f7baf18d034aa9c2059f0e55e74f75ae195fb80cf94
-    home: https://www.postgresql.org/
-    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
-    keywords:
-    - postgresql
-    - postgres
-    - database
-    - sql
-    - replication
-    - cluster
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    - email: cedric@desaintmartin.fr
-      name: desaintmartin
-    name: postgresql
-    sources:
-    - https://github.com/bitnami/bitnami-docker-postgresql
-    urls:
-    - https://jhvhs.github.io/concourse-chart/charts/postgresql-9.0.0.tgz
-    version: 9.0.0
-  - apiVersion: v1
-    appVersion: 11.6.0
-    created: "2020-02-11T13:27:14.272327Z"
-    description: Chart for PostgreSQL, an object-relational database management system
-      (ORDBMS) with an emphasis on extensibility and on standards-compliance.
-    digest: 40840e15091a3ebc49b85adc165b7dd8d51a4055468f9bc6cbf2456424a0e417
+    digest: 1109c2ff4b179e5584f813412ff3d5b4711ac1ae07ee4be17c046e87cb1d7914
     home: https://www.postgresql.org/
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
     keywords:
@@ -113,7 +87,7 @@ entries:
     version: 8.4.0
   - apiVersion: v1
     appVersion: 11.6.0
-    created: "2020-02-11T13:27:14.270426Z"
+    created: "2020-02-12T10:52:21.16111Z"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: 6592c769406d6acf7538ebd828adaa0c7131435e06282cb4e6ce557ede717e9d
@@ -139,7 +113,7 @@ entries:
     version: 8.3.2
   - apiVersion: v1
     appVersion: 11.6.0
-    created: "2020-02-11T13:27:14.268892Z"
+    created: "2020-02-12T10:52:21.158809Z"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: 0a218d3265d07f34dc6ef3ad7fcd23c6bd633c8ef4a28fae8138873b81db0cdf
@@ -163,4 +137,4 @@ entries:
     urls:
     - https://jhvhs.github.io/concourse-chart/postgresql-8.2.3.tgz
     version: 8.2.3
-generated: "2020-02-11T13:27:14.260957Z"
+generated: "2020-02-12T10:52:21.151134Z"
